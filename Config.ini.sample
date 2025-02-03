@@ -1,0 +1,29 @@
+[path]
+# Входные данные
+input_dir = ./sample_input_dir/
+# Директория для сохранения результатов
+output_dir = ./path_to_output
+
+[setting]
+# Форматы выходных аннотаций (через запятую)
+output_formats = coco,yolo
+# Время отображения каждой формы в секундах
+time_switch = 5
+# Ширина окна
+window_width = 1280
+# Высота окна
+window_height = 720
+# Отметка композитных виджетов
+mark_composite = true
+# Использование одинаковых первых букв в тексте
+equal_letter = false
+# Параметры ширины полей ввода: вероятность,мин,макс
+width_input = 0.5,100,300
+
+[font]
+# Путь к CSS файлу со шрифтами (относительно src/main/resources)
+apiFonts = sample_fonts.css
+# Список шрифтов через запятую
+fonts = Arial,Times New Roman,Verdana
+# Диапазон размеров шрифта: мин,макс
+font_size = 12,24

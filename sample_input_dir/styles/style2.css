@@ -1,0 +1,80 @@
+/* Base styles */
+.root {
+    -fx-background-color: #f5f5f5;
+    -fx-padding: 20;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8 16px;
+    -fx-border-radius: 4px;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Text fields */
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 4px;
+    -fx-padding: 6px;
+    -fx-font-size: 14px;
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: #333;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* Checkboxes */
+.check-box {
+    -fx-text-fill: #333;
+    -fx-font-size: 14px;
+}
+
+/* Combo boxes */
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 4px;
+    -fx-padding: 4px;
+}
+
+/* Tables */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 4px;
+}
+
+/* Scroll bars */
+.scroll-bar:vertical {
+    -fx-background-color: #f5f5f5;
+}
+
+.scroll-bar:horizontal {
+    -fx-background-color: #f5f5f5;
+}
+
+/* Text areas */
+.text-area {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 4px;
+    -fx-padding: 6px;
+    -fx-font-size: 14px;
+}
+
+/* Trees */
+.tree-view {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 4px;
+}

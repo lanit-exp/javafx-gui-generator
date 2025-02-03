@@ -1,0 +1,80 @@
+/* Основные стили для окна */
+.pane {
+    -fx-background-color: #f0f0f0;
+    -fx-padding: 20px;
+}
+
+/* Стили для кнопок */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 4px;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Стили для текстовых полей */
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+    -fx-padding: 6px;
+}
+
+/* Стили для меток */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+/* Стили для чекбоксов */
+.check-box {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+/* Стили для выпадающих списков */
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+}
+
+/* Стили для таблиц */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+}
+
+/* Стили для полос прокрутки */
+.scroll-bar:vertical,
+.scroll-bar:horizontal {
+    -fx-background-color: #f0f0f0;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #ccc;
+}
+
+/* Стили для текстовых областей */
+.text-area {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+    -fx-padding: 6px;
+}
+
+/* Стили для деревьев */
+.tree-view {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+}
